@@ -1,6 +1,6 @@
 ## Welcome to Eduardo Granados Page
 
-I am graduate from Kean University and have an interest in Cyber Secuirty, and will be all I learn on my path.
+I am graduate from Kean University and have an interest in Cyber Secuirty, and will be talking all that I learn on my path.
 
 ### Markdown
 
