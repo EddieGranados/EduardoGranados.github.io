@@ -1,8 +1,6 @@
 ## Welcome to Eduardo Granados Page
 
-You can use the [editor on GitHub](https://github.com/EddieGranados/EduardoGranados.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I am graduate from Kean University and have an interest in Cyber Secuirty, and will be all I learn on my path.
 
 ### Markdown
 
