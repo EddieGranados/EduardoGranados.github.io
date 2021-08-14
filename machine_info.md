@@ -1,4 +1,4 @@
-**The followig commands are for Windows 10**
+**The followig commands are for Windows 10 users**
 <br>Open a command promt and enter the following command to get system info:
 
 1. ```> systeminfo```
