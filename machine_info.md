@@ -1,7 +1,9 @@
 **The followig commands are for Windows 10 users**
 <br>Open a command promt and enter the following command to get system info:
-
 1. ```> systeminfo```
+
+something something something
+
 2. ```> net use```
 3. ```> ipconfig /all```
 4. ```> net domain```
