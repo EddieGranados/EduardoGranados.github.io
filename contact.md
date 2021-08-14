@@ -1,3 +1,5 @@
 ###### Contact Information
 
-You can reach me at egranados01@outlook.com
+You can reach me at:
+
+- egranados01@outlook.com
