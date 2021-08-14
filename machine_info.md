@@ -1,16 +1,16 @@
 **The followig commands are for Windows 10 users**
 
 ```
-<br>Open a command promt and enter the following command to get system info:
-1. > systeminfo
+Open a command promt and enter the following command to get system info:
+    > systeminfo
 
 Something something
-2. > net use
+    > net use
 testing testing testing
-3. > ipconfig /all
-4. > net domain
-5. > net logons
-6. > net localgroup administrators
+    > ipconfig /all
+    > net domain
+    > net logons
+    > net localgroup administrators
 ```
 
 ---
