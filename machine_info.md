@@ -1,5 +1,5 @@
 The followig commands are for Windows 10 
-</br>Open a command promt and enter the following command to get system info
+<br>Open a command promt and enter the following command to get system info
 
 1. ```> systeminfo```
 2. ```> net use```
