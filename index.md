@@ -6,8 +6,7 @@ I am graduate from Kean University and have an interest in Cyber Secuirty, and w
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-<!-- [Basic machine information](machine_info.md) -->
-testing 1234
+[Basic machine information](machine_info.md)
 
 ```markdown
 Syntax highlighted code block
