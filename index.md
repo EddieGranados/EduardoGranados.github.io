@@ -2,11 +2,9 @@
 
 I am graduate from Kean University and have an interest in Cyber Secuirty, and will be talking about all that I learn on my path here.
 
-### Markdown
+### **Posts**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-[Basic machine information](machine_info.md)
+- 8/14/2021 - [Basic machine information](machine_info.md)
 
 ```markdown
 Syntax highlighted code block
