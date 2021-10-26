@@ -7,7 +7,6 @@ import config # import config file
 # and launch any of the 3 browsers (chromium, firefox and webkit).
 from playwright.sync_api import sync_playwright
 
-# What is the purpose of this?
 buyButton = False
 
 with sync_playwright() as p:
@@ -20,7 +19,6 @@ with sync_playwright() as p:
     while not buyButton:
         try:
             # if the button to buy is disabled, refresh page until its enabled
-            # if page.is_disabled('.c-button-disabled',None,3000) == True:
             if page.is_disabled('.c-button-disabled') == True:
                 print("Button isn't ready yet")
                 print("Refreshing...")
