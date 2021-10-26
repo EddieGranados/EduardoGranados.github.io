@@ -59,4 +59,4 @@ print(f'Program took {time.time()-start_time:.3f} seconds to run')
 
 ---
 
-###### [Home](/Eduardo_Granados)
+###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)

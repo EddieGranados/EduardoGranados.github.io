@@ -12,4 +12,4 @@ Open a command promt and enter the following command to get system info:
 
 ---
 
-###### [Home](/Eduardo_Granados)
+###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)
