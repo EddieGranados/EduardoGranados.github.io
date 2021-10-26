@@ -27,22 +27,34 @@ with sync_playwright() as p:
             else:
                 continue
         except:
+            # Adding item to cart
+            page.wait_for_selector('.c-button-primary')
             page.click('.c-button-primary')
             print("Adding to cart...")
-            page.wait_for_timeout(3000)
+            page.wait_for_timeout(1500)
+
+            # Going to my cart 
             page.goto('https://www.bestbuy.com/cart')
             print("Going to cart...")
-            page.wait_for_timeout(3000)
+
+            # Checking out item
+            page.wait_for_selector('.btn-lg')
             page.click('.btn-lg')
             print("Checking out in...")
-            page.wait_for_timeout(3000)
+
+            # entering email
+            page.wait_for_selector('#fld-e')
             page.fill('#fld-e',config.email)
             print("Entering email...")
+            
+            # entering password
+            page.wait_for_selector('#fld-p1')
             page.fill('#fld-p1', config.pw)
             print("Entering password...")
+            
+            # Log in to accoutn
             # page.click('.cia-form__controls__submit')
             # print("Logging in")          
-            page.screenshot(path="example.png")
             page.wait_for_timeout(3000)
             print("complete")
             browser.close()
