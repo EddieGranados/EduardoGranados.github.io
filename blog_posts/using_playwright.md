@@ -31,7 +31,6 @@ with sync_playwright() as p:
             page.wait_for_selector('.c-button-primary')
             page.click('.c-button-primary')
             print("Adding to cart...")
-            page.wait_for_timeout(1500)
 
             # Going to my cart 
             page.goto('https://www.bestbuy.com/cart')
@@ -44,7 +43,7 @@ with sync_playwright() as p:
 
             # entering email
             page.wait_for_selector('#fld-e')
-            page.fill('#fld-e',config.email)
+            page.fill('#fld-e', config.email)
             print("Entering email...")
             
             # entering password
