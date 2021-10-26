@@ -59,4 +59,4 @@ print(f'Program took {time.time()-start_time:.3f} seconds to run')
 
 ---
 
-###### [Home](\index.md)
+###### [Home](index.md)
