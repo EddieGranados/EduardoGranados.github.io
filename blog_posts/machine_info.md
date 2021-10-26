@@ -12,4 +12,4 @@ Open a command promt and enter the following command to get system info:
 
 ---
 
-###### [Home](/index.md)
+###### [Home](index.md)
