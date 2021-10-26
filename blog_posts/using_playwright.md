@@ -14,11 +14,7 @@ with sync_playwright() as p:
     firefox = p.firefox
     browser = firefox.launch(headless=False)
     page = browser.new_page()
-    page.goto('https://www.bestbuy.com/site/microsoft-xbox-series-x-halo-infinite-limited-edition-black/6477938.p?skuId=6477938')
-    # page.goto('https://www.bestbuy.com/site/microsoft-controller-for-xbox-series-x-xbox-series-s-and-xbox-one-latest-model-carbon-black/6430655.p?skuId=6430655')
-    # page.goto('https://www.bestbuy.com/site/apple-airpods-pro-white/5706659.p?skuId=5706659')
-    # page.goto('https://www.bestbuy.com/site/dyson-ball-multi-floor-origin-vacuum-iron-fuchsia/6451336.p?skuId=6451336')
-
+    page.goto('https://www.bestbuy.com/site/microsoft-controller-for-xbox-series-x-xbox-series-s-and-xbox-one-latest-model-carbon-black/6430655.p?skuId=6430655')
 
     # loop continuously until item has been bought
     while not buyButton:
