@@ -4,8 +4,8 @@ I am a graduate from Kean University with a Bachelor of Science in Computer Scie
 
 ### **Posts**
 
-- 8/14/2021 - [Basic machine information](/blog_posts/machine_info.md)
-- 10/26/2021 - [Using Playwright](/blog_posts/using_playwright.md) 
+- 8/14/2021 - [Basic machine information](\blog_posts\machine_info.md)
+- 10/26/2021 - [Using Playwright](\blog_posts\using_playwright.md) 
 
 ---
 
