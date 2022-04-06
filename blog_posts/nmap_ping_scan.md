@@ -1,4 +1,4 @@
-'''bash
+'''
 
     # importing module
     import re
