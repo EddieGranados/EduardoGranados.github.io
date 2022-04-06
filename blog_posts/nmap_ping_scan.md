@@ -1,6 +1,8 @@
-## Ping Scan
+###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)        
 
-```
+---
+
+```bash
 # importing module      
 import re       
 import os              
@@ -43,7 +45,3 @@ with open("outfile.txt",'w') as outfile:
         outfile.write(l)        
     outfile.close()     
 ```
-
----
-
-###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)        

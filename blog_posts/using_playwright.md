@@ -1,3 +1,7 @@
+###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)        
+
+---
+
 ```bash
 import time # importing the time library
 start_time=time.time() # setting the variable start_time = equal to the start
@@ -61,7 +65,3 @@ with sync_playwright() as p:
 
 print(f'Program took {time.time()-start_time:.3f} seconds to run')
 ```
-
----
-
-###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)
