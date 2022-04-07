@@ -4,6 +4,8 @@
 
 **For this program to work, you must have [Nmap](https://nmap.org/download.html) and [Python](https://www.python.org/downloads/) installed on your machine**
 
+
+
 First we  import the [Regular Expression](https://docs.python.org/3/library/re.html#) and [Operating System](https://docs.python.org/3/library/os.html#) modules.
 ```bash
 # importing module      
@@ -11,12 +13,16 @@ import re
 import os         
 ```
 
+
+
 Next, the code will perform a ping scan using Nmap, and paste the results to a text document named `ping_scan.txt`. 
 Using the `os.system(<command>)` we are able to execute a command in a terminal
 ```bash
 # nmap command to perform a Ping Scan       
 os.system('nmap -sn 192.168.1.* | cat > ping_scan.txt')
 ```
+
+
 
 After the results of the ping scan have been added to a text file. The program will open and read the text document, then add its contexts the variable `fileContent`. The text file is then closed.
 ```bash
@@ -26,11 +32,15 @@ with open(r"ping_scan.txt") as file:
     file.close  
 ```
 
+
+
 The variable `ip_pattern` is created, and this holds the pattern that will be used to match the IP address.
 ```bash
 # declaring regex pattern for ip addresses      
 ip_pattern = re.compile(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
 ```
+
+
 
 Three "list" are initialized. `lst` type is actually of `list`. `valid_list` and `invalid_list` are of type `String`.
 ```bash
@@ -40,12 +50,16 @@ valid_list = ""
 invalid_list = ""       
 ```
 
+
+
 The program will loop through each line from `fileContent`. Then, append an IP address when a match for `ip_pattern` is found or an empty cell to `lst` .
 ```bash        
 # extracting the IP addresses       
 for line in fileContent:        
     lst.append(ip_pattern.findall(line))        
 ```
+
+
 
 Program now separates the valid IPs from invalid IPs.
 ```bash        
@@ -58,12 +72,16 @@ for i in range(0, len(lst)-1):
         valid_list = valid_list+str(dirty_addressess)       
 ```
 
+
+
 Since the values were a part of a type `list`, then changed to a `str`. The strings need to be cleaned, and have the special characters removed.
 ```bash    
 # removing special characters       
 clean_ips = re.sub(r"[\[([{''})]", "", valid_list)      
 clean_ips = re.sub(r"[\]]", "\n", clean_ips)        
 ```
+
+
 
 Lastly, the valid IPs are exported to a file named `outfile.txt`
 ```bash
