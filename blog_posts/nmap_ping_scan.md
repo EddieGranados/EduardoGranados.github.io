@@ -104,7 +104,7 @@ with open("outfile.txt",'w') as outfile:
 
 
 Full Code
-```bash
+```Python
 # importing module      
 import re       
 import os              
