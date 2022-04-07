@@ -2,6 +2,17 @@
 
 ---
 
+**For this program to work, you must have [Nmap](https://nmap.org/download.html) and [Python](https://www.python.org/downloads/) installed on your machine**
+
+First we  import the [Regular Expression](https://docs.python.org/3/library/re.html#) and [Operating System](https://docs.python.org/3/library/os.html#) modules.
+```bash
+# importing module      
+import re       
+import os         
+```
+
+
+Full Code
 ```bash
 # importing module      
 import re       
