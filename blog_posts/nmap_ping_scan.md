@@ -12,6 +12,7 @@ First we  import the [Regular Expression](https://docs.python.org/3/library/re.h
 import re       
 import os         
 ```
+</br>
 
 
 
@@ -21,6 +22,7 @@ Using the `os.system(<command>)` we are able to execute a command in a terminal
 # nmap command to perform a Ping Scan       
 os.system('nmap -sn 192.168.1.* | cat > ping_scan.txt')
 ```
+</br>
 
 
 
@@ -31,6 +33,7 @@ with open(r"ping_scan.txt") as file:
     fileContent = file.readlines()      
     file.close  
 ```
+</br>
 
 
 
@@ -39,6 +42,7 @@ The variable `ip_pattern` is created, and this holds the pattern that will be us
 # declaring regex pattern for ip addresses      
 ip_pattern = re.compile(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
 ```
+</br>
 
 
 
@@ -49,6 +53,7 @@ lst = []
 valid_list = ""     
 invalid_list = ""       
 ```
+</br>
 
 
 
@@ -58,6 +63,7 @@ The program will loop through each line from `fileContent`. Then, append an IP a
 for line in fileContent:        
     lst.append(ip_pattern.findall(line))        
 ```
+</br>
 
 
 
@@ -71,6 +77,7 @@ for i in range(0, len(lst)-1):
     else:       
         valid_list = valid_list+str(dirty_addressess)       
 ```
+</br>
 
 
 
@@ -80,6 +87,7 @@ Since the values were a part of a type `list`, then changed to a `str`. The stri
 clean_ips = re.sub(r"[\[([{''})]", "", valid_list)      
 clean_ips = re.sub(r"[\]]", "\n", clean_ips)        
 ```
+</br>
 
 
 
@@ -91,6 +99,7 @@ with open("outfile.txt",'w') as outfile:
         outfile.write(l)        
     outfile.close()     
 ```
+</br>
 
 
 
