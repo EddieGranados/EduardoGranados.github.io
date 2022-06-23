@@ -11,7 +11,7 @@ echo "Starting @ $startTime"
 echo "****************************************************"
 
 
-echo "" > updater.log # clears log
+echo "" > updater.log # Creates updater.log/Clears updater.log
 
 
 # Appended to log
@@ -23,7 +23,7 @@ echo "" >> updater.log
 
 # Display to terminal
 echo "."
-sleep 3s
+sleep 3s # waits 3 seconds
 echo "."
 
 
