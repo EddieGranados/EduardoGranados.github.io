@@ -1,3 +1,5 @@
+~/Pictures/Screenshots/pc_maintenance_2022-06-23.png
+
 ```bash
 #! /bin/bash
 
