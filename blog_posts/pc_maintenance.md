@@ -1,4 +1,4 @@
-/blog_posts/Screenshots/pc_maintenance_2022-06-23.png
+[Image](/blog_posts/Screenshots/pc_maintenance_2022-06-23.png)
 
 
 ```bash
