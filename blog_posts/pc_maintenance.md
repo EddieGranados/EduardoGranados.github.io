@@ -9,7 +9,7 @@
 #! /bin/bash
 
 
-startTime=$(date) # Time program starts
+startTime=$(date) # Time update starts
 
 
 
@@ -48,7 +48,7 @@ sudo apt-get autoclean >> $logPath &&
 sudo apt-get clean
 
 
-endTime=$(date) # Time program ends
+endTime=$(date) # Time update ends
 
 
 # Display to terminal
