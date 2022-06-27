@@ -1,5 +1,4 @@
-[Screenshot of result](https://github.com/EddieGranados/Eduardo_Granados/blob/gh-pages/blog_posts/Screenshots/pc_maintenance_2022-06-23.png)
-
+I have created this script to help keep your Linux machine that use apt-get to stay up-to date.
 
 ```bash
 #! /bin/bash
@@ -62,3 +61,5 @@ echo "****************************************************"
 echo "Completed @ $endTime"
 echo "****************************************************"
 ```
+
+[Screenshot of result](https://github.com/EddieGranados/Eduardo_Granados/blob/gh-pages/blog_posts/Screenshots/pc_maintenance_2022-06-23.png)
