@@ -9,7 +9,8 @@
 #! /bin/bash
 
 
-startTime=$(date) # Time update starts
+startTime=$(date) # Time program starts
+
 
 
 # Displays to terminal
@@ -19,15 +20,18 @@ echo "Starting @ $startTime"
 echo "****************************************************"
 
 
-echo "" > updater.log # Creates updater.log/Clears updater.log
+echo "" > /home/eg/scripts/updater/updater.log # Creates updater.log/Clears updater.log
+
+
+logPath="/home/eg/scripts/updater/updater.log" # It's easier to spell logPath than the entire direct path
 
 
 # Appended to log
-echo "****************************************************" >> updater.log 
-echo "Executing \"apt-updater.sh\"" >> updater.log
-echo "Starting update @ $startTime" >> updater.log
-echo "****************************************************" >> updater.log 
-echo "" >> updater.log
+echo "****************************************************" >> $logPath
+echo "Executing \"apt-updater.sh\"" >> $logPath
+echo "Starting update @ $startTime" >> $logPath
+echo "****************************************************" >> $logPath
+echo "" >> $logPath
 
 
 # Display to terminal
@@ -37,14 +41,14 @@ echo "."
 
 
 # Appended to log
-sudo apt-get update >> updater.log &&
-sudo apt-get dist-upgrade -Vy >> updater.log &&
-sudo apt-get autoremove -y >> updater.log &&
-sudo apt-get autoclean >> updater.log &&
+sudo apt-get update >> $logPath &&
+sudo apt-get dist-upgrade -Vy >> $logPath &&
+sudo apt-get autoremove -y >> $logPath &&
+sudo apt-get autoclean >> $logPath &&
 sudo apt-get clean
 
 
-endTime=$(date) # Time update ends
+endTime=$(date) # Time program ends
 
 
 # Display to terminal
@@ -55,10 +59,10 @@ sleep 3s
 
 
 # Appended to log
-echo "" >> updater.log 
-echo "****************************************************" >> updater.log 
-echo "Completed @ $endTime" >> updater.log
-echo "****************************************************"  >> updater.log
+echo "" >> $logPath 
+echo "****************************************************" >> $logPath 
+echo "Completed @ $endTime" >> $logPath
+echo "****************************************************"  >> $logPath
 
 
 # Displays to terminal
