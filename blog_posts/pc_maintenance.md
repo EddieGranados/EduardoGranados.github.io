@@ -20,6 +20,7 @@ echo "" > updater.log # Creates updater.log/Clears updater.log
 
 # Appended to log
 echo "****************************************************" >> updater.log 
+echo "Executing \"apt-updater.sh\"" >> updater.log
 echo "Starting update @ $startTime" >> updater.log
 echo "****************************************************" >> updater.log 
 echo "" >> updater.log
