@@ -10,6 +10,7 @@ startTime=$(date) # Time program starts
 
 # Displays to terminal
 echo "****************************************************"
+echo "Executing \"apt-updater.sh\""
 echo "Starting @ $startTime"
 echo "****************************************************"
 
@@ -35,7 +36,7 @@ sudo apt-get update >> updater.log &&
 sudo apt-get dist-upgrade -Vy >> updater.log &&
 sudo apt-get autoremove -y >> updater.log &&
 sudo apt-get autoclean >> updater.log &&
-sudo apt-get clean 
+sudo apt-get clean >> updater.log
 
 
 endTime=$(date) # Time program ends
