@@ -37,7 +37,7 @@ sudo apt-get update >> updater.log &&
 sudo apt-get dist-upgrade -Vy >> updater.log &&
 sudo apt-get autoremove -y >> updater.log &&
 sudo apt-get autoclean >> updater.log &&
-sudo apt-get clean >> updater.log
+sudo apt-get clean
 
 
 endTime=$(date) # Time program ends
