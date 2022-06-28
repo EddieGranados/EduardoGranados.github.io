@@ -5,7 +5,7 @@
 
 - I have created this script to help users keep their Linux machine that are sudo users and use apt-get to stay up-to date.
 - There is for sure some extra lines of code that can be removed, like all the ones under a "Displays to terminal" comment. Everything else is what really matters.
-- Check out how to set this up as a root user and have it run automatically as a [cron job](cron_jobs.md).
+- Check out how to set this up as a root user and have it run automatically as a [cron job]().
 - The `apt` command is a part of the package management software also named apt. Apt contains a whole suite of tools that allows us to manage the packages and sources of our software, and to install or remove software at the same time.
 
 
