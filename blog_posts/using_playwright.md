@@ -1,3 +1,7 @@
+I have been wanting to purchase an Xbox Series X for a long time, and I have always been beat by the bots out there.
+So I thought the only way to even have a chance at purchasing one was by fighting fire with fire.
+Below is my way of purchasing items with the use of Playwright, a Python Library
+
 ```bash
 import time # importing the time library
 start_time=time.time() # setting the variable start_time = equal to the start
@@ -11,7 +15,7 @@ buyButton = False
 
 with sync_playwright() as p:
     firefox = p.firefox
-    browser = firefox.launch(headless=False)
+    browser = firefox.launch()
     page = browser.new_page()
     page.goto('https://www.bestbuy.com/site/microsoft-controller-for-xbox-series-x-xbox-series-s-and-xbox-one-latest-model-carbon-black/6430655.p?skuId=6430655')
 
@@ -51,7 +55,7 @@ with sync_playwright() as p:
             page.fill('#fld-p1', config.pw)
             print("Entering password...")
             
-            # Log in to accoutn
+            # Log in to account
             # page.click('.cia-form__controls__submit')
             # print("Logging in")          
             page.wait_for_timeout(3000)
