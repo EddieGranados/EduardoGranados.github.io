@@ -1,8 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 I have been wanting to purchase an Xbox Series X for a long time, and I have always been beat by the bots out there.
 So I thought the only way to even have a chance at purchasing one was by fighting fire with fire.
 Below is my way of purchasing items with the use of Playwright, a Python Library
+=======
+###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)        
+
+---
+>>>>>>> 5bf222571fb6de6746349b0f681a3da864ee1da5
 =======
 ###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)        
 
