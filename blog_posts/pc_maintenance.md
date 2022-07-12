@@ -17,7 +17,7 @@
 #! /bin/bash
 
 
-startTime=$(date) # Time update starts
+startTime=$(date) # Time program starts
 
 
 
@@ -53,10 +53,10 @@ sudo apt-get update >> $logPath &&
 sudo apt-get dist-upgrade -Vy >> $logPath &&
 sudo apt-get autoremove -y >> $logPath &&
 sudo apt-get autoclean >> $logPath &&
-sudo apt-get clean
+sudo apt-get clean >> $logPath
 
 
-endTime=$(date) # Time update ends
+endTime=$(date) # Time program ends
 
 
 # Display to terminal
