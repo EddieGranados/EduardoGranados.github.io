@@ -2,6 +2,5 @@
 - With some web scraping I was able to get the following list for the Tech House genre. I was able to pull this list thanks to the site [beatport](https://www.beatport.com/genre/tech-house/11/top-100)
 
 
-###### As of Sept 29, 2022 the top 100 in Tech House:
-
-[Top 100 Tech House](top100_TechHouse-2022-10-11_23-37-21.txt)
+###### As of Oct 11, 2022 the top 100 in Tech House:
+[Top 100 Tech House](top100_TechHouse-2022-10-11.txt)
