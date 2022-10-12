@@ -1,9 +1,7 @@
 ###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)        
-<br>
 
 ---
-###### My Music Interests
-<br>
+#### My Music Interests
 
 ---
 
