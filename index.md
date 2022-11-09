@@ -12,15 +12,10 @@ I am a graduate from Kean University with a Bachelor of Science in Computer Scie
 - 9/29/2022 - [Music](/blog_posts/music_lists/musicLists.md)
 
 ---
-
-<!-- 
+ 
 ### **TIL**
 
 - 11/22/2022 - [Working with Burp Suite](/posts/TIL/working_with_burp_suite.md) 
- 
--->
-
-
 
 ---
 
