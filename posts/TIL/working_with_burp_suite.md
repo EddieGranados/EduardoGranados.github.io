@@ -33,9 +33,3 @@
 - By default Burp Suite will be logging requests made thorugh the proxy when the intercept is off. This can be very useful for going back and analysing prior requests, even if we didn't specifically capture them when they were made. Burp will also capture and log WebSocket communication which, can be helpful for analysing a web app. The logs can be viewed by going to the "HTTP history" and "WebSockets" sub-tabs. Any request captured here can be sent to other tools in the framework by right-clicking them and choosing "Send to...".
 - There are Proxy specific options, which can be viewed in the "Options" sub-tab. These options give us a lot of control over how the proxy operates. By default, the proxy will not intercept sever responsese by default unless we explicitly ask it to on a per-request basis. We can override the default setting by selecting the "Intercept resposnes based on the following rules" checkbox and picking one or more rules. The "Or Request Was Intercepted" rule is good for catching responses to all requestes that were intercepted by the proxy. The "And URL Is in target scope" is another very good default rule. You can make your own rules for most of the Proxy options, so this one section where lookiing around and experimenting will be useful.
 - "Match and Replace" section allows us to perform regexes on incoming and outgoing requests. For exmaple, you can automatically change your user agent to emulate a different web browser in outgoing request or remove all cookies being set in incoming requests. Again, you are free to make your own rules here.
-
-
-
-## Foxy Proxy
-
-- 
