@@ -9,7 +9,7 @@ I am a graduate from Kean University with a Bachelor of Science in Computer Scie
 - 2022/4/6 - [Nmap Ping Scan](/blog_posts/nmap_ping_scan.md)
 - 2021/10/26 - [Using Playwright](/blog_posts/using_playwright.md)
 - 2021/8/14 - [Basic machine information](/blog_posts/machine_info.md)
-- 20229/29 - [Music](/blog_posts/music_lists/musicLists.md)
+- 2022/9/29 - [Music](/blog_posts/music_lists/musicLists.md)
 
 ---
  
