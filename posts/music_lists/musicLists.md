@@ -18,4 +18,4 @@
 
 ---
 
-###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)        ~~~~
+###### [Home](https://eddiegranados.github.io/Eduardo_Granados/)
