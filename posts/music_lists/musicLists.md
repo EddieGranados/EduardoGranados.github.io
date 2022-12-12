@@ -7,13 +7,13 @@
 
 ---
 
-###### As of Oct 11, 2022 the top 100
+###### As of Dec 11, 2022 the top 100
 
 *Tech House:*
-[Top 100 Tech House](top100_TechHouse-2022-11-07.txt)
+[Top 100 Tech House](top100_TechHouse-2022-12-11.txt)
 
 *House:*
-[Top 100 House](top100_House-2022-11-07.txt)
+[Top 100 House](top100_House-2022-12-11.txt)
 
 
 ---
